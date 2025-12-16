@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import "./Courses.css";
-
+const API_URL = "https://ed200-backend.onrender.com";
 function Courses() {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("/api/courses")
+    fetch(`${API_URL}/api/courses`)
       .then(res => res.json())
       .then(data => setCourses(data));
   }, []);
