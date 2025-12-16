@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --pink: #EDAFB8;
+  --peach: #F7E1D7;
+  --gray: #DEDBD2;
+  --green: #B0C4B1;
+  --dark: #4A5759;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--peach);
+  color: var(--dark);
+
+  font-size: 20px;   /* ← was effectively ~16px */
+  line-height: 1.6;
 }
+

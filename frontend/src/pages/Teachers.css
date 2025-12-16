@@ -1,0 +1,57 @@
+.teachers-page {
+  padding: 2rem;
+}
+
+.teachers-page h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+/* 4 cards per row */
+.teachers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+/* Individual teacher card */
+.teacher-card {
+  background-color: var(--gray);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Teacher image */
+.teacher-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* Text sizing */
+.teacher-card h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
+.teacher-card p {
+  font-size: 1.05rem;
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 1100px) {
+  .teachers-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .teachers-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

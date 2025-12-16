@@ -1,0 +1,47 @@
+/* Overall events container (darker background) */
+.events-section {
+  background-color: var(--green);   /* darker layer */
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+/* Section title */
+.events-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--light);
+}
+
+/* Stack events vertically */
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Individual event card */
+.event-card {
+  background-color: var(--light);   /* lighter than container */
+  border-radius: 16px;
+  padding: 1.25rem;
+}
+
+/* Event title */
+.event-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+/* Event date */
+.event-date {
+  font-style: italic;
+  color: var(--dark);
+  margin: 0.4rem 0;
+}
+.events-section h2 {
+  /* text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem; */
+  color: var(--light);   
+}

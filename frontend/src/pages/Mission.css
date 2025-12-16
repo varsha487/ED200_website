@@ -1,0 +1,24 @@
+.mission-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.mission-content {
+  width: 80%;
+  max-width: 1000px;
+  background-color: var(--gray);
+  padding: 3rem;
+  border-radius: 16px;
+}
+
+.mission-content h1 {
+  margin-top: 0;
+  font-size: 2.3rem;
+}
+
+.mission-content p {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  margin-bottom: 1.3rem;
+}

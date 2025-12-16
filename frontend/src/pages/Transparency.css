@@ -1,0 +1,115 @@
+.transparency-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.transparency-content {
+  width: 80%;
+  max-width: 1000px;
+  background-color: var(--gray);
+  padding: 3rem;
+  border-radius: 16px;
+}
+
+/* Headings */
+.transparency-content h1 {
+  margin-top: 0;
+  font-size: 2.3rem;
+}
+
+.transparency-content h2 {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+/* Paragraphs */
+.transparency-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Total budget emphasis */
+.total-budget {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0 1rem;
+}
+
+/* Breakdown list */
+.budget-breakdown ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.budget-breakdown li {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light);
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+/* Updated date */
+.budget-updated {
+  margin-top: 2.5rem;
+  font-style: italic;
+  text-align: right;
+}
+
+/* Charts section */
+.budget-charts {
+  margin-top: 2.5rem;
+}
+
+.chart-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 50px;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+/* Bar background */
+.bar {
+  background-color: var(--light);
+  border-radius: 10px;
+  height: 16px;
+  overflow: hidden;
+}
+
+/* Bar fill */
+.bar-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Individual category widths */
+.bar-fill.staff {
+  width: 58%;
+  background-color: var(--dark);
+}
+
+.bar-fill.tech {
+  width: 19%;
+  background-color: var(--dark);
+}
+
+.bar-fill.safety {
+  width: 10%;
+  background-color: var(--dark);
+}
+
+.bar-fill.students {
+  width: 8%;
+  background-color: var(--dark);
+}
+
+.bar-fill.food {
+  width: 6%;
+  background-color: var(--dark);
+}
